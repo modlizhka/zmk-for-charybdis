@@ -98,12 +98,12 @@
 
         snipe-layers {
             bindings = <
-&kp C_BRI_DN    &kp C_BRI_UP    &kp LS(C_AC_HOME)  &kp C_AC_SEARCH  &kp K_MUTE  &kp C_VOL_DN    &kp C_VOL_UP  &kp C_PREV      &kp C_PP  &kp C_NEXT       &kp MINUS  &kp EQUAL
-&kp LEFT_ALT    &none           &none              &none            &none       &none           &none         &none           &none     &none            &none      &none
-&kp LCTRL       &msc SCRL_UP    &mkp MCLK          &mkp RCLK        &mkp LCLK   &kp LC(A)       &kp LEFT      &kp DOWN_ARROW  &kp UP    &kp RIGHT_ARROW  &trans     &none
-&kp LEFT_SHIFT  &msc SCRL_DOWN  &tabLft            &tabRght         &none       &trans          &kp PG_UP     &kp PG_DN       &trans    &trans           &trans     &trans
-                                                   &trans           &trans      &trans          &mkp RCLK     &mkp LCLK
-                                                                    &trans      &trans          &trans
+&kp C_BRI_DN    &kp C_BRI_UP  &kp LS(C_AC_HOME)  &kp C_AC_SEARCH  &kp K_MUTE  &kp C_VOL_DN    &kp C_VOL_UP  &kp C_PREV      &kp C_PP  &kp C_NEXT       &kp MINUS  &kp EQUAL
+&kp LEFT_ALT    &none         &none              &none            &none       &none           &none         &none           &none     &none            &none      &none
+&msc SCRL_UP    &kp TAB       &mkp MCLK          &mkp RCLK        &mkp LCLK   &kp LC(A)       &kp LEFT      &kp DOWN_ARROW  &kp UP    &kp RIGHT_ARROW  &trans     &none
+&msc SCRL_DOWN  &kp LCTRL     &tabLft            &tabRght         &none       &trans          &kp PG_UP     &kp PG_DN       &trans    &trans           &trans     &trans
+                                                 &trans           &trans      &trans          &mkp RCLK     &mkp LCLK
+                                                                  &trans      &trans          &trans
             >;
         };
 
