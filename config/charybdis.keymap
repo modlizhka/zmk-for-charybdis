@@ -142,12 +142,12 @@
 
         WINDOWS_LAYERS {
             bindings = <
-&trans          &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)    &kp LG(NUMBER_6)  &kp LG(N7)        &kp LG(N8)          &kp LG(N9)     &kp LG(N0)  &trans
-&trans          &trans            &trans            &trans            &trans            &trans        &kp LG(Y)         &kp LG(U)         &kp LG(I)           &kp LG(O)      &trans      &trans
-&trans          &trans            &trans            &trans            &trans            &trans        &kp LG(LEFT)      &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT)  &trans      &trans
-&kp LEFT_SHIFT  &trans            &trans            &trans            &trans            &trans        &kp LG(N)         &kp LG(M)         &kp LG(COMMA)       &kp LG(DOT)    &trans      &kp RIGHT_SHIFT
-                                                    &trans            &trans            &trans        &trans            &trans
-                                                                      &trans            &trans        &kp LG(ENTER)
+&trans          &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)       &kp LG(NUMBER_6)  &kp LG(N7)        &kp LG(N8)          &kp LG(N9)     &kp LG(N0)  &trans
+&trans          &trans            &trans            &trans            &trans            &trans           &kp LG(Y)         &kp LG(U)         &kp LG(I)           &kp LG(O)      &trans      &trans
+&trans          &trans            &trans            &trans            &trans            &trans           &kp LG(LEFT)      &kp LG(UP_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT)  &trans      &trans
+&kp LEFT_SHIFT  &trans            &tabLft           &tabRght          &kp LG(PG_UP)     &kp LG(PG_DN)    &kp LG(N)         &kp LG(M)         &kp LG(COMMA)       &kp LG(DOT)    &trans      &kp RIGHT_SHIFT
+                                                    &trans            &trans            &trans           &trans            &trans
+                                                                      &trans            &trans           &kp LG(ENTER)
             >;
         };
 
